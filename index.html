@@ -1,15 +1,78 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Le nouveau zoo</title>
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Zoo de ST-JEAN — Accueil</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    /* style simple, intégré (toujours du HTML) */
+    body{font-family: Arial, Helvetica, sans-serif; margin:0; color:#222}
+    header{background:#2f7a4a;color:#fff;padding:16px}
+    nav a{color:#fff;margin-right:12px;text-decoration:none;font-weight:600}
+    .container{padding:18px;max-width:1100px;margin:auto}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;align-items:start}
+    footer{background:#eee;padding:12px;text-align:center;margin-top:30px}
+    .card{background:#fafafa;padding:12px;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+    h1,h2{margin:0 0 8px 0}
+    small{color:#555}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html">Accueil</a>
+      <a href="visiter.html">Visiter</a>
+      <a href="acces.html">Accès</a>
+      <a href="tarifs.html">Tarifs</a>
+      <a href="activites.html">Activités</a>
+      <a href="fauves.html">Fauves</a>
+      <a href="photos.html">Photos</a>
+      <a href="manger.html">Manger</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
 
-    </head>
-    <body bgcolor="Silver">
-        <FONT size="20"</BODY><u><i>vOICI LE NOUVEAU ZOO DE ST-jEAN:</i></u><BR></FONT>
-   <iframe id="widget_autocomplete_preview"  width="150" height="300" frameborder="0" src="https://meteofrance.com/widget/prevision/200040##3D6AA2" title="Prévisions Ajaccio par Météo-France"> </iframe>
+  <main class="container">
+    <div class="grid">
+      <section>
+        <div class="card">
+          <h1>Bienvenue au Zoo de la Ville</h1>
+          <p>Bienvenue ! Découvrez nos animaux, nos activités familiales et nos espaces de restauration. Nous sommes ouverts tous les jours (sauf jours fériés selon calendrier).</p>
+          <h2>Actualités rapides</h2>
+          <ul>
+            <li>Nouvelle arrivage grande surprise soyez présent — inauguration le 26 septembre.</li>
+            <li>Visites guidées scolaires : réservation recommandée.</li>
+          </ul>
+        </div>
 
+        <section style="margin-top:18px" class="card">
+          <h2>Horaires généraux</h2>
+          <p>Ouvert de 9h à 18h (dernière entrée 17h). Fermeture annuelle variable — consultez la page contact pour les jours spéciaux.</p>
+        </section>
+      </section>
 
-    </body>
-    
+      <aside>
+        <div class="card">
+          <h2>Météo locale</h2>
+         <div id="cont_MzAzODMzNHwzfDF8MXwxfCNhZGM5NDJ8NXwjZmZmZmZmfGd8">
+    <div id="spa_MzAzODMzNHwzfDF8MXwxfCNhZGM5NDJ8NXwjZmZmZmZmfGd8"><a id="a_MzAzODMzNHwzfDF8MXwxfCNhZGM5NDJ8NXwjZmZmZmZmfGd8" href="https://www.meteocity.com/france/ajaccio-v3038334?utm_medium=widget&utm_source=referral&utm_campaign=france-ajaccio-v3038334&utm_content=location" target="_top" style="color:#333;text-decoration:none;">Météo Ajaccio</a> ©<a target="_top" href="https://www.meteocity.com?utm_medium=widget&utm_campaign=france-ajaccio-v3038334&utm_content=homepage">Météocity</a></div>
+    <script type="text/javascript" src="https://www.meteocity.com/widget/js/MzAzODMzNHwzfDF8MXwxfCNhZGM5NDJ8NXwjZmZmZmZmfGd8"></script>
+</div>
+          
+          <small>Widget Meteocity intégré.</small>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <h2>Contact express</h2>
+          <p>Tél : 07 23 45 09 89<br>Email : info@zoodeSTJEAN.CIEL</p>
+          <p><a href="contact.html">Voir la page contact</a></p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    © Zoo de la Ville — Tous droits réservés — <a href="contact.html">Mentions légales</a>
+  </footer>
+</body>
 </html>
-

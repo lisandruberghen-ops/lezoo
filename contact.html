@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Contact — Zoo de la Ville</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:Arial;margin:0;color:#222}
+    header{background:#2f7a4a;color:#fff;padding:16px}
+    nav a{color:#fff;margin-right:12px;text-decoration:none}
+    .container{padding:18px;max-width:900px;margin:auto}
+    .card{background:#fafafa;padding:14px;border-radius:8px}
+    label{display:block;margin-top:8px}
+    input,textarea{width:100%;padding:8px;margin-top:4px;border:1px solid #ccc;border-radius:4px}
+    button{margin-top:8px;padding:10px 14px;background:#2f7a4a;color:#fff;border:none;border-radius:6px;cursor:pointer}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html">Accueil</a>
+      <a href="visiter.html">Visiter</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <h1>Nous contacter</h1>
+      <p>Pour toute question, réservation scolaire ou signalement :</p>
+      <ul>
+        <li>Téléphone : <strong>07 23 45 09 89</strong> (9h - 17h)</li>
+        <li>Email : <a href="mailto:info@zoodeSTJEAN.CIEL">info@zoodeSTJEAN.CIEL</a></li>
+        <li>Adresse : 10 Avenue STJEAN, 20000 AJACCIO</li>
+      </ul>
+
+      <h2>Formulaire de contact </h2>
+      <!-- Formulaire statique en HTML uniquement (pas de backend) -->
+      <form action="#" method="get" onsubmit="alert('Formulaire démonstration — implémentez un back-end pour envoyer'); return false;">
+        <label>Nom
+          <input type="text" name="nom" placeholder="Votre nom" required>
+        </label>
+        <label>Email
+          <input type="email" name="email" placeholder="votre@email.com" required>
+        </label>
+        <label>Message
+          <textarea name="message" rows="6" placeholder="Votre message"></textarea>
+        </label>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </main>
+
+  <footer style="padding:12px;text-align:center;background:#eee;margin-top:20px">
+    © Zoo de la Ville
+  </footer>
+</body>
+</html>
